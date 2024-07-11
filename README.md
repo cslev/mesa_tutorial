@@ -5,6 +5,9 @@ Mostly for one or two of them, and in jupyter notebook format (developed in VS c
 ## What is Mesa? 
 *"Mesa allows users to quickly create agent-based models using built-in core components (such as spatial grids and agent schedulers) or customized implementations; visualize them using a browser-based interface; and analyze their results using Python's data analysis tools. Its goal is to be the Python-based alternative to NetLogo, Repast, or MASON."* --> more info click [here](https://github.com/projectmesa/mesa).
 
+## What this repo is all about
+Basically, it is the reproduction of the official Mesa tutorial found [here](https://mesa.readthedocs.io/en/stable/tutorials/intro_tutorial.html)....and maybe more examples from the wild.
+
 ## Requirements
 If you use this in VS Code as I do, first add/open the directory in your VS code, open the `money_model.ipynb` (or any other `ipynb` file) and create a Python virtual environment via clicking on the top right corner's button stating "Select kernel". 
 
@@ -24,5 +27,7 @@ $ pip install seaborn
 ```
 
 Now, you are done and ready to use this repo.
+
+
 
 
