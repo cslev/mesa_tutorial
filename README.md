@@ -13,7 +13,7 @@ If you use this in VS Code as I do, first add/open the directory in your VS code
 
 Then choose your Python environment (e.g., Python3.9, Python3.10) and let VS code do its job. The benefit of letting VS code doing the virtual environment is that it will install the `jupyter-notebook `related packages. If you create your virtual enviroment on your own via `python3 -m venv .venv`, you should install jupyter-notebook related packages on your own.
 
-After having the virtual environment created (`.venv` directory) and as you can observe the `.vscode` directory also has a `settings.json` file pointing to here. Therefore, your VS code environment will know the interpreter and won't complain about missing imports later.
+After having the virtual environment created (`.venv` directory) and as you can observe the `.vscode` directory also has a `settings.json` file pointing to here. Therefore, your VS code environment will know the interpreter and won't complain about missing imports later. If it still complains, you may restart VS Code as the `settings.json` is only read and comprehended once when the python kernel is loaded.
 
 ### Install Mesa libs into your venv
 Open a terminal, or use the terminal in VS code and activate the virtual environment.
